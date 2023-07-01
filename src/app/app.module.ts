@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { RatingModule } from 'ng-starrating'
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
     HeaderComponent,
-    HomeComponent
-  ],
+    HomeComponent,
+      SearchComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
